@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Building Websites: Getting Started</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css" type="text/css">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Bethany's Pie Shop</title>
+    
 </head>
-
 <body>
-    <h1>HTML Elements</h1>
-    <p>Each element has a purpose</p>
-    <a href="https://pluralsight.com" target="_blank" >Learn more at Pluralsight</a>
-    <table>
-        <thead>
-            <tr>
-                <th>Author</th>
-                <th>Title</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Craig Shoemaker</td>
-                <td>Getting Started: Websites</td>
-            </tr>
-            <tr>
-                <td>Paolo Perrotta</td>
-                <td>Mastering Git</td>
-            </tr>
-        </tbody>
-    </table>
+    <!-- Header navigation bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="pies.html">Pies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Section for Bethany's logo -->
+    <main>
+        <aside><img src="/images/logo.png" alt="Bethany's pie shop"></aside>
+        <article>
+            <img class="banner" src="/images/banner.png" alt="Bethany's pie shop">
+            <h1>Welcome to Bethany's Pie Shop</h1>
+            <p class="sub-title">
+                From pecan to plum, our pies are made with the warmth and love of grandmas. Take a moment to <a href="pie.html">browse our pies</a> and see 
+                which of our delectable desserts are soon to arrive on your doorstep.
+            </p>
+        </article> 
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="pies.html">Pies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
-
 </html>
