@@ -18,11 +18,7 @@ function onLoad(e){
         function(error){
             locationBox.value = JSON.stringify(location);      
     });
-
-
-/* break up into smaller functional parts? */
-
-function onLoad(e){
+    
     const order = localStorage.getItem("order");
     if(!order) return;
     const pieOrder = JSON.parse(order); //create an object from a string. opposite of json.stringify
